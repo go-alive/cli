@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 )
 
 var packages = []string{"cli", "altsrc"}
@@ -67,9 +67,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/micro/cli/v2"
+			packageName = "github.com/go-alive/cli"
 		} else {
-			packageName = fmt.Sprintf("github.com/micro/cli/v2/%s", pkg)
+			packageName = fmt.Sprintf("github.com/go-alive/cli/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)

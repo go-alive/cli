@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 )
 
 // NewJSONSourceFromFlagFunc returns a func that takes a cli.Context

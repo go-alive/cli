@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 )
 
 type testApplyInputSource struct {

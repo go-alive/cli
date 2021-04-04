@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 )
 
 // MapInputSource implements InputSourceContext to return

@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 
 	"gopkg.in/yaml.v2"
 )

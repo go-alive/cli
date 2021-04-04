@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/BurntSushi/toml"
-	"github.com/micro/cli/v2"
+	"github.com/go-alive/cli"
 )
 
 type tomlMap struct {
