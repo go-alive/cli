@@ -1,4 +1,4 @@
-module github.com/micro/cli/v2
+module github.com/go-alive/cli
 
 go 1.11
 
